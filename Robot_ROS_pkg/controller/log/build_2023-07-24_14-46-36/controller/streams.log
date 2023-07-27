@@ -1,0 +1,33 @@
+[0.131s] Invoking command in '/home/xilinx/catkin_ws/src/controller/build/controller': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/cmake /home/xilinx/catkin_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/xilinx/catkin_ws/src/controller/install/controller
+[2.306s] -- The C compiler identification is GNU 11.2.0
+[3.757s] -- The CXX compiler identification is GNU 11.2.0
+[3.877s] -- Detecting C compiler ABI info
+[4.740s] -- Detecting C compiler ABI info - done
+[4.901s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.906s] -- Detecting C compile features
+[4.915s] -- Detecting C compile features - done
+[4.970s] -- Detecting CXX compiler ABI info
+[5.933s] -- Detecting CXX compiler ABI info - done
+[6.098s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.102s] -- Detecting CXX compile features
+[6.110s] -- Detecting CXX compile features - done
+[6.207s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[6.209s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[6.211s]   has asked CMake to find a package configuration file provided by
+[6.212s]   "ament_cmake", but CMake did not find one.
+[6.214s] 
+[6.215s]   Could not find a package configuration file provided by "ament_cmake" with
+[6.217s]   any of the following names:
+[6.219s] 
+[6.220s]     ament_cmakeConfig.cmake
+[6.222s]     ament_cmake-config.cmake
+[6.224s] 
+[6.226s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[6.227s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[6.229s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[6.230s]   has been installed.
+[6.232s] 
+[6.233s] [0m
+[6.236s] -- Configuring incomplete, errors occurred!
+[6.240s] See also "/home/xilinx/catkin_ws/src/controller/build/controller/CMakeFiles/CMakeOutput.log".
+[6.244s] Invoked command in '/home/xilinx/catkin_ws/src/controller/build/controller' returned '1': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/cmake /home/xilinx/catkin_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/xilinx/catkin_ws/src/controller/install/controller

@@ -1,0 +1,79 @@
+[5.333s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'controller']
+[5.334s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['controller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xb5afe268>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xb61e9c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xb61e9c70>>)
+[5.874s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.875s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.876s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.876s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.878s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xilinx/catkin_ws/src/controller'
+[5.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.881s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.141s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'controller'
+[6.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.634s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[6.635s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[6.635s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.636s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[6.637s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[6.637s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[6.638s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[6.638s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[6.639s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.639s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xilinx/catkin_ws/src/controller/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xilinx/catkin_ws/src/controller/install/controller', 'merge_install': False, 'path': '/home/xilinx/catkin_ws/src/controller', 'symlink_install': False, 'test_result_base': None}
+[6.652s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.711s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.713s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xilinx/catkin_ws/src/controller' with build type 'ament_cmake'
+[6.715s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xilinx/catkin_ws/src/controller'
+[6.797s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xilinx/catkin_ws/src/controller/build/controller': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/cmake /home/xilinx/catkin_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/xilinx/catkin_ws/src/controller/install/controller
+[12.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xilinx/catkin_ws/src/controller/build/controller' returned '1': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/cmake /home/xilinx/catkin_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/xilinx/catkin_ws/src/controller/install/controller
+[13.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[13.177s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/catkin_ws/src/controller/install/controller' for CMake module files
+[13.183s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/catkin_ws/src/controller/install/controller' for CMake config files
+[13.186s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/catkin_ws/src/controller/install/controller/bin'
+[13.187s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/catkin_ws/src/controller/install/controller/lib/pkgconfig/controller.pc'
+[13.207s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/catkin_ws/src/controller/install/controller/lib/python3.10/site-packages'
+[13.211s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/catkin_ws/src/controller/install/controller/bin'
+[13.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/xilinx/catkin_ws/src/controller/install/controller/share/controller/package.ps1'
+[13.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xilinx/catkin_ws/src/controller/install/controller/share/controller/package.dsv'
+[13.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/xilinx/catkin_ws/src/controller/install/controller/share/controller/package.sh'
+[13.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/xilinx/catkin_ws/src/controller/install/controller/share/controller/package.bash'
+[13.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/xilinx/catkin_ws/src/controller/install/controller/share/controller/package.zsh'
+[13.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xilinx/catkin_ws/src/controller/install/controller/share/colcon-core/packages/controller)
+[13.310s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[13.314s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.391s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.393s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.394s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.465s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[13.466s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.489s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xilinx/catkin_ws/src/controller/install/local_setup.ps1'
+[13.505s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xilinx/catkin_ws/src/controller/install/_local_setup_util_ps1.py'
+[13.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xilinx/catkin_ws/src/controller/install/setup.ps1'
+[13.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xilinx/catkin_ws/src/controller/install/local_setup.sh'
+[13.558s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xilinx/catkin_ws/src/controller/install/_local_setup_util_sh.py'
+[13.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xilinx/catkin_ws/src/controller/install/setup.sh'
+[13.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xilinx/catkin_ws/src/controller/install/local_setup.bash'
+[13.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xilinx/catkin_ws/src/controller/install/setup.bash'
+[13.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xilinx/catkin_ws/src/controller/install/local_setup.zsh'
+[13.617s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xilinx/catkin_ws/src/controller/install/setup.zsh'
